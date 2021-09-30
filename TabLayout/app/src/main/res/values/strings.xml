@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TabLayout</string>
+    <string name="version">Version</string>
+    <string name="codename">Code name</string>
+    <string name="android9">Android 9</string>
+    <string name="android8">Android 8</string>
+    <string name="oreo">Oreo</string>
+    <string name="pie">Pie</string>
 </resources>
