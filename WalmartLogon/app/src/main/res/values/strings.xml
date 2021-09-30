@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WalmartLogon</string>
+    <string name="lbl_signIn">Sign in to your account</string>
+    <string name="lbl_email">Email address (required)</string>
+    <string name="btn_newAcc">Create a new account</string>
+    <string name="lbl_pass">Password (required)</string>
+    <string name="lbl_forgotpass">Forgot password?</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="lbl_donthaveacc">Don\'t have an account</string>
+</resources>
