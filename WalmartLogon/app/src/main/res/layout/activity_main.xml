@@ -6,34 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="300dp"
-            android:layout_height="222dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/walmartlogo" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="308dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/walmartlogo" />
 
-        <TextView
-            android:id="@+id/lbl_signIn"
-            android:layout_width="284dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/lbl_signIn"
-            android:textSize="26dp"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/lbl_signIn"
+        android:layout_width="284dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/lbl_signIn"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="332dp"
-        android:layout_height="560dp"
-        android:layout_marginTop="9dp"
+        android:layout_width="340dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/constlayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbl_signIn">
 
@@ -48,9 +50,11 @@
 
         <EditText
             android:id="@+id/etxt_email"
-            android:layout_width="218dp"
-            android:layout_height="41dp"
+            android:layout_width="244dp"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
             android:layout_marginTop="12dp"
+            android:background="@drawable/constlayout"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="@+id/lbl_pass"
@@ -58,9 +62,11 @@
 
         <EditText
             android:id="@+id/etxt_pass"
-            android:layout_width="218dp"
-            android:layout_height="41dp"
+            android:layout_width="244dp"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
             android:layout_marginTop="16dp"
+            android:background="@drawable/constlayout"
             android:ems="10"
             android:inputType="textPersonName"
             android:text=""
@@ -82,17 +88,19 @@
             android:id="@+id/lbl_forgotpass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/lbl_forgotpass"
+            android:layout_marginTop="20dp"
             android:autoLink="all"
             android:clickable="true"
+            android:onClick="forgetPass"
+            android:text="@string/lbl_forgotpass"
+
             app:layout_constraintEnd_toEndOf="@+id/etxt_pass"
             app:layout_constraintTop_toBottomOf="@+id/etxt_pass" />
 
         <Button
             android:id="@+id/btn_signIn"
-            android:layout_width="210dp"
-            android:layout_height="38dp"
+            android:layout_width="264dp"
+            android:layout_height="51dp"
             android:layout_marginTop="24dp"
             android:text="@string/btn_signIn"
             app:layout_constraintEnd_toEndOf="parent"
@@ -117,7 +125,9 @@
             android:layout_width="264dp"
             android:layout_height="51dp"
             android:layout_marginTop="17dp"
+            android:backgroundTint="@color/white"
             android:text="@string/btn_newAcc"
+            android:textColor="#FF16236C"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
