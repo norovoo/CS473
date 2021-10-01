@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Walmart shopping</string>
+    <string name="lbl_signIn">Sign in to your account</string>
+    <string name="lbl_email">Email address (required)</string>
+    <string name="btn_newAcc">Create a new account</string>
+    <string name="lbl_pass">Password (required)</string>
+    <string name="lbl_forgotpass">Forgot password?</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="lbl_donthaveacc">Don\'t have an account</string>
+    <string name="txt_tv">Electronics</string>
+    <string name="txt_clothing">Clothing</string>
+    <string name="txt_lipstick">Beauty</string>
+    <string name="txt_food">Food</string>
+    <string name="txt_title">Shop by Categories</string>
+    <string name="txt_maintext">Create your account</string>
+    <string name="txt_requred">* required fields</string>
+    <string name="txt_firstname">First name*</string>
+    <string name="txt_lastname">Last name*</string>
+    <string name="txt_email">Email address*</string>
+    <string name="txt_password">Password*</string>
+    <string name="btn_create">Create Account</string>
+
+</resources>
