@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz_Lab6</string>
+    <string name="quiz">Quiz</string>
+    <string name="shopping">Go to the Shop</string>
+    <string name="details">Product details</string>
+    <string name="question2">Choose all possible mobile platform provided by Kotlin.</string>
+    <string name="choose2_1">IOS</string>
+    <string name="choose2_2">Android</string>
+    <string name="choose2_3">Windows Mobile OS</string>
+    <string name="question1">What we can convert programming language from to Kotlin?</string>
+    <string name="choose1_1">Objective C</string>
+    <string name="choose1_2">Java</string>
+    <string name="choose1_3">Python</string>
+    <string name="submit_quiz">Submit</string>
+    <string name="btn_reset">Reset</string>
+    <string name="lbl_signIn">Sign in to your account</string>
+    <string name="lbl_email">Email address (required)</string>
+    <string name="btn_newAcc">Create a new account</string>
+    <string name="lbl_pass">Password (required)</string>
+    <string name="lbl_forgotpass">Forgot password?</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="lbl_donthaveacc">Don\'t have an account</string>
+    <string name="txt_tv">Electronics</string>
+    <string name="txt_clothing">Clothing</string>
+    <string name="txt_lipstick">Beauty</string>
+    <string name="txt_food">Food</string>
+    <string name="txt_title">Shop by Categories</string>
+    <string name="txt_maintext">Create your account</string>
+    <string name="txt_requred">* required fields</string>
+    <string name="txt_firstname">First name*</string>
+    <string name="txt_lastname">Last name*</string>
+    <string name="txt_email">Email address*</string>
+    <string name="txt_password">Password*</string>
+    <string name="btn_create">Create Account</string>
+</resources>
